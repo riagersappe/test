@@ -1,6 +1,6 @@
 {
-	"file": "/test/test1.csv",
-	"name": "Multiple Myeloma",
+	"file": "test/test1.csv",
+	"name": "TestCase",
 	"header": 0,
 	"separator": ",",
 	"skip": 0,
