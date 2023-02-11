@@ -1,14 +1,17 @@
 {
 	"file": "test/test1.csv",
-	"name": "TestCase",
+	"name": "Simpsons Characters",
 	"header": 0,
-	"separator": ",",
+	"separator": "\t",
 	"skip": 0,
-	"meta" : [
-		{"type": "id", "index": 0, "name": "Name"}
-		],
-	"sets": [
-		{ "format": "binary", "start": 1, "end": 4 }
+	"meta": [
+		{ "type": "id", "index": 0, "name": "Name" }
 	],
-    "author": "me"
+	"sets": [
+		{ "format": "binary", "start": 1, "end": 6 }
+	],
+    "author": "Alexander Lex",
+    "description": "A collection of simpsons characters and their attributes.",
+    "source": "http://www.thesimpsons.com/"
+
 }
